@@ -1,6 +1,5 @@
 import { ImageBackground, KeyboardAvoidingView, Platform, ScrollView, StatusBar, Text, TextInput, View } from "react-native";
 import React from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
 import styles from "./home.style";
 import { Ionicons } from "@expo/vector-icons";
 import Account from "../components/Account";
@@ -11,7 +10,6 @@ import BestSeller from "../components/BestSeller";
 
 const Home = () => {
   return (
-    <SafeAreaView>
       <ScrollView>
         <View style={styles.appBarWrapper}>
           {/* <StatusBar hidden /> */}
@@ -79,7 +77,6 @@ const Home = () => {
         <Repurchase />
         <BestSeller />
       </ScrollView>
-    </SafeAreaView>
   );
 };
 

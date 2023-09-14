@@ -3,9 +3,9 @@ import React from 'react'
 import { SafeAreaView } from "react-native-safe-area-context";
 const Cart = () => {
   return (
-    <SafeAreaView>
+    <View>
       <Text>cart</Text>
-    </SafeAreaView>
+    </View>
   );
 }
 
